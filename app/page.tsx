@@ -88,7 +88,7 @@ export default function Home() {
           </p>
           <div className="bg-white p-8 rounded-2xl w-full max-w-md space-y-4 shadow-xl">
             <select className="w-full p-3 border rounded-lg" value={subject} onChange={(e) => setSubject(e.target.value)}>
-              <option>Matematyka</option><option>Angielski</option><option>Fizyka</option><option>Informatyka</option><option>Geografia</option><option>Geografia</option>
+              <option>Matematyka</option><option>Angielski</option><option>Fizyka</option><option>Informatyka</option><option>Geografia</option><option>Chemia</option><option>Historia</option>
             </select>
             <select className="w-full p-3 border rounded-lg" value={level} onChange={(e) => setLevel(e.target.value)}>
               <option>Klasa 1–4</option><option>Klasa 5–8</option><option>Liceum/technikum</option><option>Studia</option>
